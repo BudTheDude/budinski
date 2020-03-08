@@ -13,5 +13,5 @@ fun convAngleToCardinal(angle: Int) {
 }
 
 fun main(){
-    convAngleToCardinal(94)
+    convAngleToCardinal(100)
 }
