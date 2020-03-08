@@ -2,7 +2,13 @@ package homework1
 
 import java.lang.IllegalArgumentException
 
-class RectangularShape(var x: Int = 0, var y: Int =0 , var with: Int= 0, var height: Int =0 , var color: Int= 0) {
+class RectangularShape(
+    var x: Int = 0,
+    var y: Int = 0,
+    var with: Int = 0,
+    var height: Int = 0,
+    var color: Int = 0
+) {
     fun measure() {}
     fun render() {}
 }
@@ -22,6 +28,7 @@ fun validateShape(shape: RectangularShape): Boolean {
         else -> true
     }
 }
+
 
 //B
 fun initShape(shape: RectangularShape?) {

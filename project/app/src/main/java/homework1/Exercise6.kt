@@ -28,6 +28,7 @@ fun printOperations() {
     students.groupBy { it.address }.forEach { println("$it") }
 }
 
+
 fun main() {
     printOperations()
 }

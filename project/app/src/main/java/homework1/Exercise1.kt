@@ -19,7 +19,7 @@ class SavingAccount(val ownerName1: String, var balance1: Int = 0) : Account(own
         if (balance1 - amount >= 0) {
             balance1 += amount
         } else {
-            println("Sorry, your account doesn't have that much money")
+            println("Sorry, your account doesn't have that much money!")
         }
     }
 }
